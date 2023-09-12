@@ -1,18 +1,15 @@
-       IDENTIFICATION DIVISION. 
+       IDENTIFICATION DIVISION.
        PROGRAM-ID. "OBTAININPUT".
-       AUTHOR. WES MCKNIGHT.
-       ENTER
-      *THIS IS A COMMENT IN COBOL
-       ENVIRONMENT DIVISION. 
+       AUTHOR. WES MCKNIGHT
+      *This is a comment in COBOL
+       ENVIRONMENT DIVISION.
 
-       DATA DIVISION. 
-       WORKING-STORAGE SECTION. 
-       01 NAME PIC A(20).
+       DATA DIVISION.
 
        PROCEDURE DIVISION.
-           0100-START-HERE
-              DISPLAY "Please enter your name: ".
-              ACCEPT NAME.
-              DISPLAY "It is nice to meet you, ", NAME.
+
+       PROCEDURE DIVISION.
+           0100-START-HERE.
+               DISPLAY "Hello World!".
        STOP RUN.
        END PROGRAM OBTAININPUT.
